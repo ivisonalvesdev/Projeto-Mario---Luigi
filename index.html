@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200...700&display=swap" rel="stylesheet">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+
+    <div onclick="escondernamascara()" class="mascara-formulario"></div>
+
+    <div onclick="mostrarform()" class="header">
+        <img src="./imag/logo-header.png" alt="logo mario">
+        <a href="./index.html">Home</a>
+        <a href="./Nossos Servicos.html">Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+
+    <div class="caixa-mae">
+        <div class="caixa1">
+            <img src="./imag/logo.png" alt="logo do mario bros" class="logo">
+            <p>Ecanadores Mario & Luigi - Resolvendo Seus Problemas Com Estilo!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptates doloremque vel
+                unde velit illum blanditiis, explicabo est aliquam sequi enim laudantium vero soluta
+                alias non? Neque doloremque quidem commodi!
+            </p>
+
+            <button onclick="mostrarform()">Entre em contato</button>
+
+        </div>
+
+        <div class="logoluigi">
+            <img src="./imag/mario.webp" alt="mario e luigi" class="logoluigi">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./imag/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a class="link-whats"
+        href="https://api.whatsapp.com/send?phone=5581985362575&text=quero%20saber%20mais%20sobre%20o%20site?">
+        <img src="./imag/whatsapp.webp" alt="link para o whatsapp">
+    </a>
+
+    <form class="formulario" action="https://formcarry.com/s/NZtHuqCQnfO" method="POST" enctype="multipart/form-data">
+
+        <input placeholder="Seu nome" type="text" name="Nome">
+        <input placeholder="Seu telefone" type="tel" name="Telefone">
+        <textarea placeholder="Digite seu problema aqui..." name="Duvidas"></textarea>
+        <button type="submit" class="botao-caixa">Pedir Orçamento</button>
+    </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+
+</html>
